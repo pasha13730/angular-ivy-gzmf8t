@@ -2,7 +2,6 @@
 mat-slider {
   width: 300px;
 }
-.example-button-container{
+.example-button-container,.example-label{
   padding:20px;
-  
 }
