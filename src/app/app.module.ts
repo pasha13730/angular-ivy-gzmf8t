@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import {} from '@angular/material';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatBadgeModule} from '@angular/material/badge';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,BrowserAnimationsModule],
+  imports:      [ BrowserModule, FormsModule ,BrowserAnimationsModule,MatSliderModule,MatBadgeModule],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
